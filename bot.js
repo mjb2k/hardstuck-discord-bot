@@ -1,3 +1,5 @@
+// Copyright of Matthew Boyer, All rights reserved
+
 const Discord = require('discord.js');
 const client = new Discord.Client();
 const auth = require('./auth.json');
@@ -93,9 +95,6 @@ for (i = 0; i < 10000; i++) {
 	i = 10001;
 }
 // after this, our days should be 677 for our example.
-	  
-//now we run our asyinc function to test if his ranked changed or not
-
 
   if (still_plat == false)
 		msg.reply('No! Egor is no longer plat!!! Congrats!');
